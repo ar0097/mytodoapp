@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/6fce993690.js" crossorigin="anonymous"></script>
+        <script src="index.js" defer></script>
+        <title>Todo App</title> 
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="intro col-12">
+                    <h1>Work To-Dos</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="helpText col-12">
+                    <p id="first">Enter text into the input 
+                        feild to add items to your list.
+                    </p>
+                    <p id="second">Click the item to mark it as complete.</p>
+                    <p id="third">Click the "X" to remove the item from your list.</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12">
+                    <input type="text" id="userInput" placeholder="New item..." maxlength="30">
+                    <button id="enter"><i class="fa-solid fa-pencil"></i></button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="listitem col-12">
+                    <ul class="col-12 offset-0 col-sm-8 offset-sm-2"></ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!-- https://ar0097.github.io/todo.github.io/ -->
